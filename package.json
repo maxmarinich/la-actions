@@ -2,7 +2,7 @@
   "name": "la-actions",
   "version": "1.0.0",
   "scripts": {
-    "build:static": "rm -rf static && cp -r src/ static/"
+    "build:static": "rm -rf static && cp -r src/ static/; cp README.md static"
   },
   "dependencies": {
     "react-alice-carousel": "^2.2.1"
